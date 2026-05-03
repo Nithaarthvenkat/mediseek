@@ -662,3 +662,15 @@ function toast(msg,cls){
   el.textContent=msg;el.className='toast show'+(cls?' '+cls:'');
   clearTimeout(el._t);el._t=setTimeout(()=>el.classList.remove('show'),3500);
 }
+
+function loadCluster(btn, query) {
+  // remove active class from all buttons
+  document.querySelectorAll(".mabtn").forEach(b => b.classList.remove("active"));
+
+  // add active class to clicked button
+  btn.classList.add("active");
+
+  // update map
+  const iframe = document.getElementById("gmap-frame");
+  iframe.src = `https://www.google.com/maps?q=${encodeURIComponent(query)}&z=12&output=embed`;
+}
