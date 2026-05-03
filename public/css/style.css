@@ -260,3 +260,115 @@ button,input,select,textarea{font-family:var(--fb)}
 @keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
 .fade-up{animation:fadeUp .38s ease forwards}
 @media(max-width:960px){.ll{display:none}.mgrid{grid-template-columns:repeat(2,minmax(0,1fr))}.cmp-grid{grid-template-columns:1fr}.agrid{grid-template-columns:1fr}.map-container{grid-column:span 1}.sidebar{display:none}.fp-form{grid-template-columns:1fr}}
+
+/* ================= MOBILE RESPONSIVE ================= */
+@media (max-width: 768px) {
+  /* Layout */
+  .dbody {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .main {
+    width: 100%;
+    padding: 12px;
+  }
+
+  /* Navbar */
+  .navbar {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .nlinks {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  /* Cards / Grid */
+  .mgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .mcard {
+    width: 100%;
+  }
+
+  /* Finder form */
+  .fp-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .fp-input,
+  .fp-select {
+    width: 100%;
+  }
+
+  /* Buttons wrap nicely */
+  .fp-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .fp-tag {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  /* Map buttons (All TN, Chennai etc) */
+  .mabtn {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  /* Map iframe */
+  #gmap-frame {
+    height: 300px !important;
+  }
+
+  /* Map container spacing */
+  .map-container {
+    padding: 10px;
+  }
+
+  /* Search bar */
+  .nsw {
+    width: 100%;
+  }
+
+  .nsw input {
+    width: 100%;
+  }
+
+  /* Compare section */
+  .cmp-sels {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Analytics charts */
+  .agrid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* Profile */
+  .pf-wrap {
+    padding: 10px;
+  }
+
+  /* General text */
+  h1, h2, h3 {
+    font-size: 90%;
+  }
+}
