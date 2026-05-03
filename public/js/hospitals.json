@@ -1,0 +1,1867 @@
+[
+  {
+    "id": 1,
+    "name": "Apollo Hospitals Chennai",
+    "city": "Chennai",
+    "type": "Private",
+    "beds": 700,
+    "estd": 1983,
+    "score": 95,
+    "infra": 96,
+    "emergency": 95,
+    "specialists": 97,
+    "certs": [
+      "JCI",
+      "NABH",
+      "NABL"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Oncology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Nephrology",
+      "Transplant",
+      "Pediatrics",
+      "Urology",
+      "Spine",
+      "Burns",
+      "Ophthalmology",
+      "Psychiatry",
+      "Dermatology",
+      "ENT",
+      "Pulmonology",
+      "Endocrinology"
+    ],
+    "nearby": [
+      "Chennai",
+      "Kancheepuram"
+    ],
+    "maps": "https://maps.google.com/?q=Apollo+Hospitals+Chennai+Tamil+Nadu",
+    "lat": 13.0067,
+    "lng": 80.2206
+  },
+  {
+    "id": 2,
+    "name": "CMC Vellore",
+    "city": "Vellore",
+    "type": "Private",
+    "beds": 2700,
+    "estd": 1900,
+    "score": 94,
+    "infra": 88,
+    "emergency": 95,
+    "specialists": 97,
+    "certs": [
+      "NABH",
+      "NABL"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Oncology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Nephrology",
+      "Pediatrics",
+      "Ophthalmology",
+      "Psychiatry",
+      "ENT",
+      "Dermatology",
+      "Pulmonology",
+      "Endocrinology",
+      "Burns",
+      "Urology",
+      "Transplant",
+      "Spine"
+    ],
+    "nearby": [
+      "Vellore",
+      "Krishnagiri",
+      "Dharmapuri"
+    ],
+    "maps": "https://maps.google.com/?q=Christian+Medical+College+Vellore+Tamil+Nadu",
+    "lat": 12.9249,
+    "lng": 79.1357
+  },
+  {
+    "id": 3,
+    "name": "MIOT International Chennai",
+    "city": "Chennai",
+    "type": "Private",
+    "beds": 1000,
+    "estd": 2000,
+    "score": 92,
+    "infra": 94,
+    "emergency": 90,
+    "specialists": 93,
+    "certs": [
+      "JCI",
+      "NABH"
+    ],
+    "specialities": [
+      "Orthopedics",
+      "Cardiology",
+      "Neurology",
+      "Spine",
+      "Trauma",
+      "Transplant",
+      "Urology",
+      "Gastroenterology"
+    ],
+    "nearby": [
+      "Chennai",
+      "Kancheepuram"
+    ],
+    "maps": "https://maps.google.com/?q=MIOT+International+Hospital+Chennai",
+    "lat": 13.0418,
+    "lng": 80.1789
+  },
+  {
+    "id": 4,
+    "name": "KMCH Coimbatore",
+    "city": "Coimbatore",
+    "type": "Private",
+    "beds": 750,
+    "estd": 1986,
+    "score": 91,
+    "infra": 92,
+    "emergency": 90,
+    "specialists": 93,
+    "certs": [
+      "JCI",
+      "NABH",
+      "NABL"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Gastroenterology",
+      "Nephrology",
+      "Pulmonology",
+      "Urology",
+      "Endocrinology",
+      "Dermatology",
+      "Psychiatry",
+      "ENT",
+      "Pediatrics"
+    ],
+    "nearby": [
+      "Coimbatore",
+      "Erode",
+      "Tiruppur"
+    ],
+    "maps": "https://maps.google.com/?q=KMCH+Coimbatore+Tamil+Nadu",
+    "lat": 11.0168,
+    "lng": 76.9558
+  },
+  {
+    "id": 5,
+    "name": "Cancer Institute WIA Chennai",
+    "city": "Chennai",
+    "type": "Specialized",
+    "beds": 270,
+    "estd": 1954,
+    "score": 93,
+    "infra": 89,
+    "emergency": 82,
+    "specialists": 98,
+    "certs": [
+      "NABH",
+      "NABL"
+    ],
+    "specialities": [
+      "Oncology"
+    ],
+    "dedicated": true,
+    "dedicatedFor": "Oncology",
+    "nearby": [
+      "Chennai",
+      "Kancheepuram"
+    ],
+    "maps": "https://maps.google.com/?q=Cancer+Institute+WIA+Chennai",
+    "lat": 13.0035,
+    "lng": 80.2233
+  },
+  {
+    "id": 6,
+    "name": "JIPMER Puducherry",
+    "city": "Puducherry",
+    "type": "Government",
+    "beds": 2000,
+    "estd": 1823,
+    "score": 90,
+    "infra": 86,
+    "emergency": 93,
+    "specialists": 92,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Oncology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Nephrology",
+      "Pediatrics",
+      "Ophthalmology",
+      "Psychiatry",
+      "ENT",
+      "Dermatology",
+      "Pulmonology",
+      "Endocrinology",
+      "Burns",
+      "Urology",
+      "Transplant",
+      "Spine"
+    ],
+    "nearby": [
+      "Villupuram",
+      "Cuddalore",
+      "Puducherry"
+    ],
+    "maps": "https://maps.google.com/?q=JIPMER+Puducherry",
+    "lat": 11.9344,
+    "lng": 79.8009
+  },
+  {
+    "id": 7,
+    "name": "Meenakshi Mission Hospital Madurai",
+    "city": "Madurai",
+    "type": "Private",
+    "beds": 600,
+    "estd": 1991,
+    "score": 89,
+    "infra": 90,
+    "emergency": 88,
+    "specialists": 91,
+    "certs": [
+      "JCI",
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Oncology",
+      "Transplant",
+      "Nephrology",
+      "Urology",
+      "Gastroenterology",
+      "Orthopedics",
+      "Pulmonology",
+      "Endocrinology"
+    ],
+    "nearby": [
+      "Madurai",
+      "Dindigul",
+      "Sivaganga",
+      "Virudhunagar"
+    ],
+    "maps": "https://maps.google.com/?q=Meenakshi+Mission+Hospital+Madurai",
+    "lat": 9.9252,
+    "lng": 78.1198
+  },
+  {
+    "id": 8,
+    "name": "Fortis Malar Hospital Chennai",
+    "city": "Chennai",
+    "type": "Private",
+    "beds": 180,
+    "estd": 1992,
+    "score": 89,
+    "infra": 88,
+    "emergency": 88,
+    "specialists": 91,
+    "certs": [
+      "JCI",
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Gastroenterology",
+      "Neurology",
+      "Orthopedics"
+    ],
+    "nearby": [
+      "Chennai"
+    ],
+    "maps": "https://maps.google.com/?q=Fortis+Malar+Hospital+Chennai",
+    "lat": 13.0155,
+    "lng": 80.2497
+  },
+  {
+    "id": 9,
+    "name": "Aravind Eye Hospital Madurai",
+    "city": "Madurai",
+    "type": "Specialized",
+    "beds": 1500,
+    "estd": 1976,
+    "score": 91,
+    "infra": 90,
+    "emergency": 78,
+    "specialists": 97,
+    "certs": [
+      "NABH",
+      "NABL"
+    ],
+    "specialities": [
+      "Ophthalmology"
+    ],
+    "dedicated": true,
+    "dedicatedFor": "Ophthalmology",
+    "nearby": [
+      "Madurai",
+      "Dindigul",
+      "Virudhunagar",
+      "Sivaganga"
+    ],
+    "maps": "https://maps.google.com/?q=Aravind+Eye+Hospital+Madurai",
+    "lat": 9.9195,
+    "lng": 78.1161
+  },
+  {
+    "id": 10,
+    "name": "Sri Ramachandra Medical Centre Chennai",
+    "city": "Chennai",
+    "type": "Private",
+    "beds": 900,
+    "estd": 1994,
+    "score": 88,
+    "infra": 90,
+    "emergency": 87,
+    "specialists": 89,
+    "certs": [
+      "NABH",
+      "NABL"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Pediatrics",
+      "Oncology",
+      "Gastroenterology",
+      "Transplant",
+      "Nephrology",
+      "Pulmonology",
+      "ENT",
+      "Orthopedics",
+      "Dermatology",
+      "Psychiatry",
+      "Endocrinology"
+    ],
+    "nearby": [
+      "Chennai",
+      "Kancheepuram"
+    ],
+    "maps": "https://maps.google.com/?q=Sri+Ramachandra+Medical+Centre+Chennai",
+    "lat": 13.0523,
+    "lng": 80.165
+  },
+  {
+    "id": 11,
+    "name": "PSG Hospitals Coimbatore",
+    "city": "Coimbatore",
+    "type": "Private",
+    "beds": 500,
+    "estd": 1985,
+    "score": 87,
+    "infra": 88,
+    "emergency": 85,
+    "specialists": 89,
+    "certs": [
+      "NABH",
+      "NABL"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Gastroenterology",
+      "Neurology",
+      "Nephrology",
+      "Urology",
+      "Orthopedics",
+      "Oncology",
+      "Endocrinology"
+    ],
+    "nearby": [
+      "Coimbatore",
+      "Erode",
+      "Tiruppur"
+    ],
+    "maps": "https://maps.google.com/?q=PSG+Hospitals+Coimbatore",
+    "lat": 11.0139,
+    "lng": 76.9366
+  },
+  {
+    "id": 12,
+    "name": "Ganga Hospital Coimbatore",
+    "city": "Coimbatore",
+    "type": "Specialized",
+    "beds": 350,
+    "estd": 1987,
+    "score": 86,
+    "infra": 87,
+    "emergency": 84,
+    "specialists": 88,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Orthopedics",
+      "Spine",
+      "Trauma",
+      "Burns"
+    ],
+    "dedicated": true,
+    "dedicatedFor": "Orthopedics",
+    "nearby": [
+      "Coimbatore",
+      "Erode",
+      "Tiruppur"
+    ],
+    "maps": "https://maps.google.com/?q=Ganga+Hospital+Coimbatore",
+    "lat": 11.0025,
+    "lng": 76.9629
+  },
+  {
+    "id": 13,
+    "name": "Kauvery Hospital Chennai",
+    "city": "Chennai",
+    "type": "Private",
+    "beds": 450,
+    "estd": 1999,
+    "score": 86,
+    "infra": 87,
+    "emergency": 85,
+    "specialists": 88,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Gastroenterology",
+      "Orthopedics",
+      "Neurology",
+      "Nephrology",
+      "Urology"
+    ],
+    "nearby": [
+      "Chennai",
+      "Kancheepuram"
+    ],
+    "maps": "https://maps.google.com/?q=Kauvery+Hospital+Chennai",
+    "lat": 13.0559,
+    "lng": 80.2197
+  },
+  {
+    "id": 14,
+    "name": "Global Hospital Chennai",
+    "city": "Chennai",
+    "type": "Private",
+    "beds": 400,
+    "estd": 2010,
+    "score": 84,
+    "infra": 85,
+    "emergency": 83,
+    "specialists": 86,
+    "certs": [
+      "JCI",
+      "NABH"
+    ],
+    "specialities": [
+      "Oncology",
+      "Transplant",
+      "Neurology",
+      "Gastroenterology",
+      "Nephrology"
+    ],
+    "nearby": [
+      "Chennai"
+    ],
+    "maps": "https://maps.google.com/?q=Global+Hospital+Chennai",
+    "lat": 13.0063,
+    "lng": 80.2085
+  },
+  {
+    "id": 15,
+    "name": "Sri Ramakrishna Hospital Coimbatore",
+    "city": "Coimbatore",
+    "type": "Private",
+    "beds": 400,
+    "estd": 1979,
+    "score": 84,
+    "infra": 85,
+    "emergency": 82,
+    "specialists": 86,
+    "certs": [
+      "NABH",
+      "NABL"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Gastroenterology",
+      "Orthopedics",
+      "Endocrinology",
+      "Psychiatry"
+    ],
+    "nearby": [
+      "Coimbatore",
+      "Erode"
+    ],
+    "maps": "https://maps.google.com/?q=Sri+Ramakrishna+Hospital+Coimbatore",
+    "lat": 11.0052,
+    "lng": 76.9683
+  },
+  {
+    "id": 16,
+    "name": "Chettinad Health City Chennai",
+    "city": "Chennai",
+    "type": "Private",
+    "beds": 700,
+    "estd": 2010,
+    "score": 83,
+    "infra": 86,
+    "emergency": 80,
+    "specialists": 84,
+    "certs": [
+      "NABH",
+      "NABL"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Oncology",
+      "Gastroenterology",
+      "Orthopedics",
+      "Nephrology",
+      "Pulmonology",
+      "Endocrinology"
+    ],
+    "nearby": [
+      "Chennai",
+      "Kancheepuram"
+    ],
+    "maps": "https://maps.google.com/?q=Chettinad+Health+City+Kelambakkam+Chennai",
+    "lat": 12.8214,
+    "lng": 80.2177
+  },
+  {
+    "id": 17,
+    "name": "Kauvery Hospital Trichy",
+    "city": "Tiruchirappalli",
+    "type": "Private",
+    "beds": 300,
+    "estd": 2005,
+    "score": 83,
+    "infra": 84,
+    "emergency": 82,
+    "specialists": 85,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Nephrology"
+    ],
+    "nearby": [
+      "Tiruchirappalli",
+      "Thanjavur",
+      "Pudukkottai"
+    ],
+    "maps": "https://maps.google.com/?q=Kauvery+Hospital+Trichy+Tamil+Nadu",
+    "lat": 10.8063,
+    "lng": 78.6917
+  },
+  {
+    "id": 18,
+    "name": "Apollo Specialty Hospital Madurai",
+    "city": "Madurai",
+    "type": "Private",
+    "beds": 250,
+    "estd": 2003,
+    "score": 85,
+    "infra": 87,
+    "emergency": 83,
+    "specialists": 87,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Oncology",
+      "Cardiology",
+      "Neurology",
+      "Gastroenterology",
+      "Orthopedics"
+    ],
+    "nearby": [
+      "Madurai",
+      "Virudhunagar"
+    ],
+    "maps": "https://maps.google.com/?q=Apollo+Specialty+Hospital+Madurai",
+    "lat": 9.9263,
+    "lng": 78.1277
+  },
+  {
+    "id": 19,
+    "name": "SKS Hospital Salem",
+    "city": "Salem",
+    "type": "Private",
+    "beds": 350,
+    "estd": 2004,
+    "score": 82,
+    "infra": 84,
+    "emergency": 80,
+    "specialists": 83,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Urology"
+    ],
+    "nearby": [
+      "Salem",
+      "Namakkal",
+      "Erode"
+    ],
+    "maps": "https://maps.google.com/?q=SKS+Hospital+Salem+Tamil+Nadu",
+    "lat": 11.6643,
+    "lng": 78.146
+  },
+  {
+    "id": 20,
+    "name": "Royal Care Super Speciality Coimbatore",
+    "city": "Coimbatore",
+    "type": "Private",
+    "beds": 300,
+    "estd": 2005,
+    "score": 82,
+    "infra": 83,
+    "emergency": 80,
+    "specialists": 84,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Nephrology",
+      "Urology",
+      "Orthopedics"
+    ],
+    "nearby": [
+      "Coimbatore",
+      "Tiruppur"
+    ],
+    "maps": "https://maps.google.com/?q=Royal+Care+Hospital+Coimbatore",
+    "lat": 11.0303,
+    "lng": 76.979
+  },
+  {
+    "id": 21,
+    "name": "Rajiv Gandhi Govt General Hospital Chennai",
+    "city": "Chennai",
+    "type": "Government",
+    "beds": 2700,
+    "estd": 1934,
+    "score": 82,
+    "infra": 80,
+    "emergency": 92,
+    "specialists": 85,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Oncology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Nephrology",
+      "Pediatrics",
+      "Ophthalmology",
+      "Psychiatry",
+      "ENT",
+      "Dermatology",
+      "Pulmonology",
+      "Endocrinology",
+      "Burns",
+      "Urology",
+      "Transplant",
+      "Spine"
+    ],
+    "nearby": [
+      "Chennai",
+      "Kancheepuram"
+    ],
+    "maps": "https://maps.google.com/?q=Rajiv+Gandhi+Government+General+Hospital+Chennai",
+    "lat": 13.0839,
+    "lng": 80.2705
+  },
+  {
+    "id": 22,
+    "name": "SRM Medical College Kattankulathur",
+    "city": "Kancheepuram",
+    "type": "Private",
+    "beds": 800,
+    "estd": 2003,
+    "score": 81,
+    "infra": 83,
+    "emergency": 79,
+    "specialists": 82,
+    "certs": [
+      "NABH",
+      "NABL"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Oncology",
+      "Gastroenterology",
+      "Orthopedics",
+      "Nephrology",
+      "Pediatrics",
+      "ENT"
+    ],
+    "nearby": [
+      "Kancheepuram",
+      "Chennai"
+    ],
+    "maps": "https://maps.google.com/?q=SRM+Medical+College+Kattankulathur",
+    "lat": 12.8218,
+    "lng": 80.0433
+  },
+  {
+    "id": 23,
+    "name": "Govt Rajaji Hospital Madurai",
+    "city": "Madurai",
+    "type": "Government",
+    "beds": 2500,
+    "estd": 1954,
+    "score": 80,
+    "infra": 76,
+    "emergency": 89,
+    "specialists": 82,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Oncology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Nephrology",
+      "Pediatrics",
+      "Ophthalmology",
+      "Psychiatry",
+      "ENT",
+      "Dermatology",
+      "Pulmonology",
+      "Burns",
+      "Urology"
+    ],
+    "nearby": [
+      "Madurai",
+      "Dindigul",
+      "Sivaganga"
+    ],
+    "maps": "https://maps.google.com/?q=Rajaji+Government+Hospital+Madurai",
+    "lat": 9.9195,
+    "lng": 78.1111
+  },
+  {
+    "id": 24,
+    "name": "Dr Mehta's Hospital Chennai",
+    "city": "Chennai",
+    "type": "Private",
+    "beds": 250,
+    "estd": 1954,
+    "score": 80,
+    "infra": 81,
+    "emergency": 78,
+    "specialists": 82,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Orthopedics",
+      "Neurology"
+    ],
+    "nearby": [
+      "Chennai"
+    ],
+    "maps": "https://maps.google.com/?q=Dr+Mehta+Hospital+Chennai",
+    "lat": 13.0633,
+    "lng": 80.256
+  },
+  {
+    "id": 25,
+    "name": "Saveetha Medical College Kancheepuram",
+    "city": "Kancheepuram",
+    "type": "Private",
+    "beds": 750,
+    "estd": 2008,
+    "score": 79,
+    "infra": 81,
+    "emergency": 77,
+    "specialists": 80,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "ENT",
+      "Dermatology",
+      "Pediatrics"
+    ],
+    "nearby": [
+      "Kancheepuram",
+      "Chennai"
+    ],
+    "maps": "https://maps.google.com/?q=Saveetha+Medical+College+Chennai",
+    "lat": 13.0739,
+    "lng": 80.0619
+  },
+  {
+    "id": 26,
+    "name": "Vinayaka Mission Hospital Salem",
+    "city": "Salem",
+    "type": "Private",
+    "beds": 450,
+    "estd": 2000,
+    "score": 79,
+    "infra": 80,
+    "emergency": 77,
+    "specialists": 81,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Pediatrics",
+      "ENT"
+    ],
+    "nearby": [
+      "Salem",
+      "Namakkal"
+    ],
+    "maps": "https://maps.google.com/?q=Vinayaka+Mission+Hospital+Salem",
+    "lat": 11.748,
+    "lng": 78.0943
+  },
+  {
+    "id": 27,
+    "name": "Govt Stanley Medical College Chennai",
+    "city": "Chennai",
+    "type": "Government",
+    "beds": 1500,
+    "estd": 1838,
+    "score": 79,
+    "infra": 74,
+    "emergency": 88,
+    "specialists": 82,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Oncology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Nephrology",
+      "Pediatrics",
+      "Ophthalmology",
+      "Psychiatry",
+      "ENT",
+      "Dermatology",
+      "Pulmonology",
+      "Burns",
+      "Urology"
+    ],
+    "nearby": [
+      "Chennai"
+    ],
+    "maps": "https://maps.google.com/?q=Stanley+Medical+College+Hospital+Chennai",
+    "lat": 13.1086,
+    "lng": 80.2896
+  },
+  {
+    "id": 28,
+    "name": "Vijaya Hospital Trichy",
+    "city": "Tiruchirappalli",
+    "type": "Private",
+    "beds": 250,
+    "estd": 1998,
+    "score": 79,
+    "infra": 80,
+    "emergency": 77,
+    "specialists": 80,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Neurology"
+    ],
+    "nearby": [
+      "Tiruchirappalli"
+    ],
+    "maps": "https://maps.google.com/?q=Vijaya+Hospital+Trichy+Tamil+Nadu",
+    "lat": 10.7736,
+    "lng": 78.7185
+  },
+  {
+    "id": 29,
+    "name": "SRM Medical College Trichy",
+    "city": "Tiruchirappalli",
+    "type": "Private",
+    "beds": 500,
+    "estd": 2010,
+    "score": 78,
+    "infra": 80,
+    "emergency": 76,
+    "specialists": 79,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Oncology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Pediatrics"
+    ],
+    "nearby": [
+      "Tiruchirappalli",
+      "Pudukkottai"
+    ],
+    "maps": "https://maps.google.com/?q=SRM+Medical+College+Trichy",
+    "lat": 10.805,
+    "lng": 78.739
+  },
+  {
+    "id": 30,
+    "name": "Coimbatore Medical College Hospital",
+    "city": "Coimbatore",
+    "type": "Government",
+    "beds": 1300,
+    "estd": 1960,
+    "score": 78,
+    "infra": 73,
+    "emergency": 86,
+    "specialists": 80,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Oncology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Nephrology",
+      "Pediatrics",
+      "Ophthalmology",
+      "Psychiatry",
+      "ENT",
+      "Dermatology",
+      "Pulmonology",
+      "Burns",
+      "Urology"
+    ],
+    "nearby": [
+      "Coimbatore",
+      "Tiruppur"
+    ],
+    "maps": "https://maps.google.com/?q=Coimbatore+Medical+College+Hospital",
+    "lat": 11.0143,
+    "lng": 76.9802
+  },
+  {
+    "id": 31,
+    "name": "Velammal Medical College Madurai",
+    "city": "Madurai",
+    "type": "Private",
+    "beds": 900,
+    "estd": 2012,
+    "score": 78,
+    "infra": 82,
+    "emergency": 76,
+    "specialists": 79,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Pediatrics",
+      "ENT",
+      "Dermatology"
+    ],
+    "nearby": [
+      "Madurai",
+      "Dindigul"
+    ],
+    "maps": "https://maps.google.com/?q=Velammal+Medical+College+Madurai",
+    "lat": 9.9843,
+    "lng": 78.0724
+  },
+  {
+    "id": 32,
+    "name": "Govt Vellore Medical College",
+    "city": "Vellore",
+    "type": "Government",
+    "beds": 1500,
+    "estd": 1965,
+    "score": 76,
+    "infra": 72,
+    "emergency": 84,
+    "specialists": 78,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Oncology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Nephrology",
+      "Pediatrics",
+      "Ophthalmology",
+      "Psychiatry",
+      "ENT",
+      "Dermatology",
+      "Pulmonology",
+      "Burns",
+      "Urology"
+    ],
+    "nearby": [
+      "Vellore"
+    ],
+    "maps": "https://maps.google.com/?q=Government+Vellore+Medical+College+Hospital",
+    "lat": 12.9165,
+    "lng": 79.1325
+  },
+  {
+    "id": 33,
+    "name": "Bharat Scans Hospital Trichy",
+    "city": "Tiruchirappalli",
+    "type": "Private",
+    "beds": 200,
+    "estd": 2000,
+    "score": 80,
+    "infra": 82,
+    "emergency": 78,
+    "specialists": 81,
+    "certs": [
+      "NABH",
+      "NABL"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Gastroenterology",
+      "Nephrology"
+    ],
+    "nearby": [
+      "Tiruchirappalli",
+      "Thanjavur"
+    ],
+    "maps": "https://maps.google.com/?q=Bharat+Hospital+Trichy+Tamil+Nadu",
+    "lat": 10.7905,
+    "lng": 78.7047
+  },
+  {
+    "id": 34,
+    "name": "Govt Tirunelveli Medical College",
+    "city": "Tirunelveli",
+    "type": "Government",
+    "beds": 1500,
+    "estd": 1962,
+    "score": 76,
+    "infra": 71,
+    "emergency": 85,
+    "specialists": 77,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Oncology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Nephrology",
+      "Pediatrics",
+      "Ophthalmology",
+      "Psychiatry",
+      "ENT",
+      "Dermatology",
+      "Pulmonology",
+      "Burns",
+      "Urology"
+    ],
+    "nearby": [
+      "Tirunelveli",
+      "Thoothukudi",
+      "Ramanathapuram"
+    ],
+    "maps": "https://maps.google.com/?q=Tirunelveli+Medical+College+Hospital",
+    "lat": 8.7139,
+    "lng": 77.7567
+  },
+  {
+    "id": 35,
+    "name": "Senthil Hospital Namakkal",
+    "city": "Namakkal",
+    "type": "Private",
+    "beds": 200,
+    "estd": 2002,
+    "score": 76,
+    "infra": 77,
+    "emergency": 74,
+    "specialists": 78,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Orthopedics",
+      "Neurology",
+      "Gastroenterology"
+    ],
+    "nearby": [
+      "Namakkal",
+      "Salem",
+      "Erode",
+      "Tiruchirappalli"
+    ],
+    "maps": "https://maps.google.com/?q=Senthil+Hospital+Namakkal+Tamil+Nadu",
+    "lat": 11.2195,
+    "lng": 78.1673
+  },
+  {
+    "id": 36,
+    "name": "Govt Salem Medical College Hospital",
+    "city": "Salem",
+    "type": "Government",
+    "beds": 1000,
+    "estd": 1964,
+    "score": 75,
+    "infra": 70,
+    "emergency": 83,
+    "specialists": 76,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Oncology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Nephrology",
+      "Pediatrics",
+      "Ophthalmology",
+      "Psychiatry",
+      "ENT",
+      "Dermatology",
+      "Pulmonology",
+      "Burns",
+      "Urology"
+    ],
+    "nearby": [
+      "Salem",
+      "Namakkal",
+      "Dharmapuri"
+    ],
+    "maps": "https://maps.google.com/?q=Salem+Government+Medical+College+Hospital",
+    "lat": 11.6643,
+    "lng": 78.1466
+  },
+  {
+    "id": 37,
+    "name": "Govt Thanjavur Medical College",
+    "city": "Thanjavur",
+    "type": "Government",
+    "beds": 1700,
+    "estd": 1959,
+    "score": 76,
+    "infra": 71,
+    "emergency": 85,
+    "specialists": 77,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Oncology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Nephrology",
+      "Pediatrics",
+      "Ophthalmology",
+      "Psychiatry",
+      "ENT",
+      "Dermatology",
+      "Pulmonology",
+      "Burns",
+      "Urology"
+    ],
+    "nearby": [
+      "Thanjavur",
+      "Tiruchirappalli",
+      "Nagapattinam",
+      "Kumbakonam"
+    ],
+    "maps": "https://maps.google.com/?q=Thanjavur+Medical+College+Hospital",
+    "lat": 10.8027,
+    "lng": 79.1391
+  },
+  {
+    "id": 38,
+    "name": "RVMHSS Hospital Tirunelveli",
+    "city": "Tirunelveli",
+    "type": "Private",
+    "beds": 200,
+    "estd": 2000,
+    "score": 74,
+    "infra": 75,
+    "emergency": 72,
+    "specialists": 76,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Orthopedics",
+      "Neurology",
+      "Gastroenterology"
+    ],
+    "nearby": [
+      "Tirunelveli"
+    ],
+    "maps": "https://maps.google.com/?q=RVS+Hospital+Tirunelveli+Tamil+Nadu",
+    "lat": 8.7195,
+    "lng": 77.733
+  },
+  {
+    "id": 39,
+    "name": "CMS Hospital Tiruppur",
+    "city": "Tiruppur",
+    "type": "Private",
+    "beds": 150,
+    "estd": 2001,
+    "score": 74,
+    "infra": 75,
+    "emergency": 72,
+    "specialists": 76,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Orthopedics",
+      "Gastroenterology"
+    ],
+    "nearby": [
+      "Tiruppur",
+      "Coimbatore"
+    ],
+    "maps": "https://maps.google.com/?q=CMS+Hospital+Tiruppur+Tamil+Nadu",
+    "lat": 11.1085,
+    "lng": 77.3411
+  },
+  {
+    "id": 40,
+    "name": "Kumbakonam Medical College",
+    "city": "Kumbakonam",
+    "type": "Government",
+    "beds": 500,
+    "estd": 2010,
+    "score": 71,
+    "infra": 68,
+    "emergency": 76,
+    "specialists": 72,
+    "certs": [],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Pediatrics",
+      "ENT"
+    ],
+    "nearby": [
+      "Kumbakonam",
+      "Thanjavur",
+      "Nagapattinam"
+    ],
+    "maps": "https://maps.google.com/?q=Kumbakonam+Government+Medical+College+Hospital",
+    "lat": 10.9602,
+    "lng": 79.3845
+  },
+  {
+    "id": 41,
+    "name": "Govt Thoothukudi Medical College",
+    "city": "Thoothukudi",
+    "type": "Government",
+    "beds": 700,
+    "estd": 1961,
+    "score": 73,
+    "infra": 68,
+    "emergency": 81,
+    "specialists": 74,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Oncology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Nephrology",
+      "Pediatrics",
+      "Ophthalmology",
+      "ENT",
+      "Dermatology",
+      "Pulmonology",
+      "Burns"
+    ],
+    "nearby": [
+      "Thoothukudi",
+      "Tirunelveli",
+      "Ramanathapuram"
+    ],
+    "maps": "https://maps.google.com/?q=Thoothukudi+Government+Medical+College+Hospital",
+    "lat": 8.8053,
+    "lng": 78.1478
+  },
+  {
+    "id": 42,
+    "name": "Erode Medical College Hospital",
+    "city": "Erode",
+    "type": "Government",
+    "beds": 600,
+    "estd": 2010,
+    "score": 72,
+    "infra": 70,
+    "emergency": 78,
+    "specialists": 73,
+    "certs": [],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Pediatrics",
+      "ENT",
+      "Burns"
+    ],
+    "nearby": [
+      "Erode",
+      "Tiruppur",
+      "Salem"
+    ],
+    "maps": "https://maps.google.com/?q=Erode+Medical+College+Hospital+Tamil+Nadu",
+    "lat": 11.341,
+    "lng": 77.7172
+  },
+  {
+    "id": 43,
+    "name": "Dindigul Medical College",
+    "city": "Dindigul",
+    "type": "Government",
+    "beds": 600,
+    "estd": 2009,
+    "score": 71,
+    "infra": 68,
+    "emergency": 77,
+    "specialists": 72,
+    "certs": [],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Pediatrics",
+      "ENT",
+      "Burns"
+    ],
+    "nearby": [
+      "Dindigul",
+      "Madurai",
+      "Namakkal"
+    ],
+    "maps": "https://maps.google.com/?q=Dindigul+Government+Medical+College+Hospital",
+    "lat": 10.3624,
+    "lng": 77.9695
+  },
+  {
+    "id": 44,
+    "name": "Tiruppur Medical College",
+    "city": "Tiruppur",
+    "type": "Government",
+    "beds": 500,
+    "estd": 2013,
+    "score": 70,
+    "infra": 68,
+    "emergency": 76,
+    "specialists": 71,
+    "certs": [],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Pediatrics"
+    ],
+    "nearby": [
+      "Tiruppur",
+      "Coimbatore",
+      "Erode"
+    ],
+    "maps": "https://maps.google.com/?q=Tiruppur+Medical+College+Tamil+Nadu",
+    "lat": 11.1085,
+    "lng": 77.3411
+  },
+  {
+    "id": 45,
+    "name": "Govt Villupuram Medical College",
+    "city": "Villupuram",
+    "type": "Government",
+    "beds": 500,
+    "estd": 2010,
+    "score": 70,
+    "infra": 66,
+    "emergency": 75,
+    "specialists": 71,
+    "certs": [],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Pediatrics",
+      "ENT",
+      "Dermatology"
+    ],
+    "nearby": [
+      "Villupuram",
+      "Cuddalore",
+      "Puducherry"
+    ],
+    "maps": "https://maps.google.com/?q=Villupuram+Government+Medical+College+Hospital",
+    "lat": 11.9404,
+    "lng": 79.4924
+  },
+  {
+    "id": 46,
+    "name": "Dhanalakshmi Srinivasan Medical College",
+    "city": "Perambalur",
+    "type": "Private",
+    "beds": 400,
+    "estd": 2010,
+    "score": 72,
+    "infra": 73,
+    "emergency": 70,
+    "specialists": 73,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Pediatrics",
+      "ENT"
+    ],
+    "nearby": [
+      "Tiruchirappalli",
+      "Cuddalore",
+      "Thanjavur"
+    ],
+    "maps": "https://maps.google.com/?q=Dhanalakshmi+Srinivasan+Medical+College+Perambalur",
+    "lat": 11.2343,
+    "lng": 78.8833
+  },
+  {
+    "id": 47,
+    "name": "Govt Sivaganga Medical College",
+    "city": "Sivaganga",
+    "type": "Government",
+    "beds": 500,
+    "estd": 2012,
+    "score": 69,
+    "infra": 65,
+    "emergency": 74,
+    "specialists": 70,
+    "certs": [],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Pediatrics",
+      "ENT"
+    ],
+    "nearby": [
+      "Sivaganga",
+      "Madurai",
+      "Ramanathapuram"
+    ],
+    "maps": "https://maps.google.com/?q=Sivaganga+Government+Medical+College+Hospital",
+    "lat": 9.8417,
+    "lng": 78.4807
+  },
+  {
+    "id": 48,
+    "name": "Govt Ramanathapuram Medical College",
+    "city": "Ramanathapuram",
+    "type": "Government",
+    "beds": 500,
+    "estd": 2010,
+    "score": 68,
+    "infra": 64,
+    "emergency": 73,
+    "specialists": 69,
+    "certs": [],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Pediatrics"
+    ],
+    "nearby": [
+      "Ramanathapuram",
+      "Virudhunagar",
+      "Thoothukudi"
+    ],
+    "maps": "https://maps.google.com/?q=Ramanathapuram+Government+Medical+College+Hospital",
+    "lat": 9.3639,
+    "lng": 78.8395
+  },
+  {
+    "id": 49,
+    "name": "Velammal Hospital Madurai",
+    "city": "Madurai",
+    "type": "Private",
+    "beds": 300,
+    "estd": 2015,
+    "score": 77,
+    "infra": 79,
+    "emergency": 75,
+    "specialists": 78,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Pediatrics"
+    ],
+    "nearby": [
+      "Madurai",
+      "Dindigul"
+    ],
+    "maps": "https://maps.google.com/?q=Velammal+Hospital+Madurai",
+    "lat": 9.9252,
+    "lng": 78.1198
+  },
+  {
+    "id": 50,
+    "name": "Govt Mahatma Gandhi Memorial Hospital Trichy",
+    "city": "Tiruchirappalli",
+    "type": "Government",
+    "beds": 1300,
+    "estd": 1952,
+    "score": 77,
+    "infra": 72,
+    "emergency": 86,
+    "specialists": 78,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Oncology",
+      "Neurology",
+      "Orthopedics",
+      "Gastroenterology",
+      "Nephrology",
+      "Pediatrics",
+      "Ophthalmology",
+      "Psychiatry",
+      "ENT",
+      "Dermatology",
+      "Pulmonology",
+      "Burns",
+      "Urology"
+    ],
+    "nearby": [
+      "Tiruchirappalli",
+      "Thanjavur",
+      "Pudukkottai"
+    ],
+    "maps": "https://maps.google.com/?q=Mahatma+Gandhi+Memorial+Government+Hospital+Trichy",
+    "lat": 10.805,
+    "lng": 78.6939
+  },
+  {
+    "id": 51,
+    "name": "Sankara Nethralaya Chennai",
+    "city": "Chennai",
+    "type": "Specialized",
+    "beds": 200,
+    "estd": 1978,
+    "score": 94,
+    "infra": 92,
+    "emergency": 70,
+    "specialists": 99,
+    "certs": [
+      "NABH",
+      "NABL"
+    ],
+    "specialities": [
+      "Ophthalmology"
+    ],
+    "dedicated": true,
+    "dedicatedFor": "Ophthalmology",
+    "nearby": [
+      "Chennai",
+      "Kancheepuram"
+    ],
+    "maps": "https://maps.google.com/?q=Sankara+Nethralaya+Chennai",
+    "lat": 13.0604,
+    "lng": 80.2496
+  },
+  {
+    "id": 52,
+    "name": "Aravind Eye Hospital Chennai",
+    "city": "Chennai",
+    "type": "Specialized",
+    "beds": 400,
+    "estd": 2003,
+    "score": 90,
+    "infra": 89,
+    "emergency": 68,
+    "specialists": 96,
+    "certs": [
+      "NABH",
+      "NABL"
+    ],
+    "specialities": [
+      "Ophthalmology"
+    ],
+    "dedicated": true,
+    "dedicatedFor": "Ophthalmology",
+    "nearby": [
+      "Chennai",
+      "Kancheepuram"
+    ],
+    "maps": "https://maps.google.com/?q=Aravind+Eye+Hospital+Chennai",
+    "lat": 13.0549,
+    "lng": 80.2409
+  },
+  {
+    "id": 53,
+    "name": "NIMHANS-affiliated Institute of Mental Health Chennai",
+    "city": "Chennai",
+    "type": "Government",
+    "beds": 1500,
+    "estd": 1794,
+    "score": 82,
+    "infra": 74,
+    "emergency": 80,
+    "specialists": 90,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Psychiatry"
+    ],
+    "dedicated": true,
+    "dedicatedFor": "Psychiatry",
+    "nearby": [
+      "Chennai",
+      "Kancheepuram"
+    ],
+    "maps": "https://maps.google.com/?q=Institute+of+Mental+Health+Chennai",
+    "lat": 13.0908,
+    "lng": 80.2789
+  },
+  {
+    "id": 54,
+    "name": "Mehta Children Hospital Chennai",
+    "city": "Chennai",
+    "type": "Specialized",
+    "beds": 130,
+    "estd": 1998,
+    "score": 88,
+    "infra": 87,
+    "emergency": 86,
+    "specialists": 92,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Pediatrics"
+    ],
+    "dedicated": true,
+    "dedicatedFor": "Pediatrics",
+    "nearby": [
+      "Chennai",
+      "Kancheepuram"
+    ],
+    "maps": "https://maps.google.com/?q=Mehta+Children+Hospital+Chennai",
+    "lat": 13.0633,
+    "lng": 80.256
+  },
+  {
+    "id": 55,
+    "name": "Kidney Hospital and Postgraduate Institute Thanjavur",
+    "city": "Thanjavur",
+    "type": "Specialized",
+    "beds": 100,
+    "estd": 2001,
+    "score": 81,
+    "infra": 80,
+    "emergency": 76,
+    "specialists": 90,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Nephrology"
+    ],
+    "dedicated": true,
+    "dedicatedFor": "Nephrology",
+    "nearby": [
+      "Thanjavur",
+      "Tiruchirappalli",
+      "Kumbakonam",
+      "Nagapattinam"
+    ],
+    "maps": "https://maps.google.com/?q=Kidney+Hospital+Thanjavur+Tamil+Nadu",
+    "lat": 10.7905,
+    "lng": 79.1391
+  },
+  {
+    "id": 56,
+    "name": "Vijaya Heart Foundation Chennai",
+    "city": "Chennai",
+    "type": "Specialized",
+    "beds": 150,
+    "estd": 1986,
+    "score": 90,
+    "infra": 91,
+    "emergency": 89,
+    "specialists": 95,
+    "certs": [
+      "NABH",
+      "NABL"
+    ],
+    "specialities": [
+      "Cardiology"
+    ],
+    "dedicated": true,
+    "dedicatedFor": "Cardiology",
+    "nearby": [
+      "Chennai",
+      "Kancheepuram"
+    ],
+    "maps": "https://maps.google.com/?q=Vijaya+Heart+Foundation+Chennai",
+    "lat": 13.0559,
+    "lng": 80.2197
+  },
+  {
+    "id": 57,
+    "name": "Aravind Eye Hospital Coimbatore",
+    "city": "Coimbatore",
+    "type": "Specialized",
+    "beds": 300,
+    "estd": 1997,
+    "score": 89,
+    "infra": 88,
+    "emergency": 65,
+    "specialists": 95,
+    "certs": [
+      "NABH",
+      "NABL"
+    ],
+    "specialities": [
+      "Ophthalmology"
+    ],
+    "dedicated": true,
+    "dedicatedFor": "Ophthalmology",
+    "nearby": [
+      "Coimbatore",
+      "Erode",
+      "Tiruppur"
+    ],
+    "maps": "https://maps.google.com/?q=Aravind+Eye+Hospital+Coimbatore",
+    "lat": 11.0139,
+    "lng": 76.9366
+  },
+  {
+    "id": 58,
+    "name": "Tamil Nadu Government Multi Super Speciality Hospital Chennai",
+    "city": "Chennai",
+    "type": "Specialized",
+    "beds": 1500,
+    "estd": 2014,
+    "score": 85,
+    "infra": 88,
+    "emergency": 90,
+    "specialists": 88,
+    "certs": [
+      "NABH"
+    ],
+    "specialities": [
+      "Cardiology",
+      "Neurology",
+      "Oncology",
+      "Nephrology",
+      "Transplant",
+      "Burns"
+    ],
+    "dedicated": true,
+    "dedicatedFor": "MultiSpeciality",
+    "nearby": [
+      "Chennai",
+      "Kancheepuram"
+    ],
+    "maps": "https://maps.google.com/?q=Tamil+Nadu+Government+Multi+Super+Speciality+Hospital+Chennai",
+    "lat": 13.0839,
+    "lng": 80.2705
+  }
+]

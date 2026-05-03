@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MediSeek — Tamil Nadu Hospital Rankings</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<!-- LOGIN PAGE -->
+<div class="page active" id="page-login">
+  <div class="ll">
+    <div class="ll-bg"></div><div class="ll-c1"></div><div class="ll-c2"></div>
+    <div class="brand">
+      <div class="brand-ico"><svg viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zm-7 3a4 4 0 110 8 4 4 0 010-8zm0 12c-3.33 0-6-1.34-6-3v-1c0-1.66 2.67-3 6-3s6 1.34 6 3v1c0 1.66-2.67 3-6 3z"/></svg></div>
+      <span class="brand-name">MediSeek</span>
+    </div>
+    <div class="ll-hero">
+      <h1>Find the <em>right</em> hospital in Tamil Nadu.</h1>
+      <p>Transparent, data-driven rankings of 180+ hospitals across Tamil Nadu — accreditation, infrastructure, emergency care, and specialists, all in one place.</p>
+    </div>
+    <div class="ll-stats">
+      <div><span class="stat-num">180+</span><span class="stat-lbl">TN hospitals</span></div>
+      <div><span class="stat-num">32</span><span class="stat-lbl">Districts</span></div>
+      <div><span class="stat-num">8</span><span class="stat-lbl">Quality metrics</span></div>
+    </div>
+  </div>
+
+  <div class="lr">
+    <div class="lcard fade-up">
+      <!-- LOGIN -->
+      <div id="wrap-login">
+        <h2 class="lcard-title">Welcome back</h2>
+        <p class="lcard-sub">Sign in with your MediSeek account.</p>
+        <div class="auth-err" id="login-err"></div>
+        <div class="fg">
+          <label class="fl" for="l-un">Username</label>
+          <input class="fi" type="text" id="l-un" placeholder="your_username" oninput="vlUn(this)">
+          <div class="ferr" id="l-un-err">3–20 characters, letters/numbers/underscore only.</div>
+        </div>
+        <div class="fg">
+          <label class="fl" for="l-em">Email address</label>
+          <input class="fi" type="email" id="l-em" placeholder="you@example.com" oninput="vlEm(this,'l-em-err')">
+          <div class="ferr" id="l-em-err">Please enter a valid email address.</div>
+        </div>
+        <div class="fg">
+          <label class="fl" for="l-pw">Password <span class="forgot" onclick="toast('Password reset link sent!','tg')">Forgot?</span></label>
+          <div class="iw">
+            <input class="fi" type="password" id="l-pw" placeholder="••••••••" oninput="vlLPw(this)">
+            <button class="itog" type="button" onclick="tpwd('l-pw',this)">&#128065;</button>
+          </div>
+          <div class="ferr" id="l-pw-err">At least 8 characters required.</div>
+        </div>
+        <button class="btnp" onclick="doLogin()">Sign in to MediSeek</button>
+        <div class="atog">No account? <a onclick="showReg()">Create one free</a></div>
+      </div>
+
+      <!-- REGISTER -->
+      <div id="wrap-reg" style="display:none">
+        <h2 class="lcard-title">Create account</h2>
+        <p class="lcard-sub">Join MediSeek — Tamil Nadu's hospital finder.</p>
+        <div class="auth-err" id="reg-err"></div>
+        <div class="frow">
+          <div class="fg"><label class="fl">First name</label><input class="fi" type="text" id="r-fn" placeholder="Priya" oninput="vlNm(this,'r-fn-err')"><div class="ferr" id="r-fn-err">Min 2 characters.</div></div>
+          <div class="fg"><label class="fl">Last name</label><input class="fi" type="text" id="r-ln" placeholder="Sharma" oninput="vlNm(this,'r-ln-err')"><div class="ferr" id="r-ln-err">Min 2 characters.</div></div>
+        </div>
+        <div class="fg">
+          <label class="fl">Username</label>
+          <input class="fi" type="text" id="r-un" placeholder="priya_sharma" oninput="vlUn(this,'r-un-err','r-un-ok')">
+          <div class="ferr" id="r-un-err">3–20 chars, letters/numbers/underscore only.</div>
+          <div class="fok" id="r-un-ok">Username looks good!</div>
+        </div>
+        <div class="fg">
+          <label class="fl">Email address</label>
+          <input class="fi" type="email" id="r-em" placeholder="you@example.com" oninput="vlEm(this,'r-em-err')">
+          <div class="ferr" id="r-em-err">Please enter a valid email.</div>
+        </div>
+        <div class="fg">
+          <label class="fl">Password</label>
+          <div class="iw"><input class="fi" type="password" id="r-pw" placeholder="Create a strong password" oninput="updStr(this)"><button class="itog" type="button" onclick="tpwd('r-pw',this)">&#128065;</button></div>
+          <div class="pwd-bars"><div class="pb" id="pb1"></div><div class="pb" id="pb2"></div><div class="pb" id="pb3"></div><div class="pb" id="pb4"></div></div>
+          <div class="pwd-lbl" id="pwd-lbl">Enter a password</div>
+          <div class="pwd-reqs">
+            <div class="preq" id="req-len"><span class="rdot"></span>At least 8 characters</div>
+            <div class="preq" id="req-up"><span class="rdot"></span>One uppercase letter</div>
+            <div class="preq" id="req-num"><span class="rdot"></span>One number</div>
+            <div class="preq" id="req-sym"><span class="rdot"></span>One special character</div>
+          </div>
+        </div>
+        <div class="fg">
+          <label class="fl">Confirm password</label>
+          <div class="iw"><input class="fi" type="password" id="r-cp" placeholder="Re-enter password" oninput="vlCp(this)"><button class="itog" type="button" onclick="tpwd('r-cp',this)">&#128065;</button></div>
+          <div class="ferr" id="r-cp-err">Passwords do not match.</div>
+        </div>
+        <button class="btnp" onclick="doReg()">Create account</button>
+        <div class="atog">Already have an account? <a onclick="showLogin()">Sign in</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- DASHBOARD PAGE -->
+<div class="page" id="page-dashboard" style="flex-direction:column">
+  <nav class="navbar">
+    <div class="nbrand">Medi<span>Seek</span></div>
+    <div class="nlinks">
+      <button class="nlink active" onclick="navGo(this,'home')">Overview</button>
+      <button class="nlink" onclick="navGo(this,'rankings')">Rankings</button>
+      <button class="nlink" onclick="navGo(this,'compare')">Compare</button>
+      <button class="nlink" onclick="navGo(this,'analytics')">Analytics</button>
+    </div>
+    <div class="nsp"></div>
+    <div class="nsw">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="text" id="gsearch" placeholder="Search hospitals, cities..." autocomplete="off" oninput="doSearch(this.value)" onblur="scheduleClose()">
+      <div class="sdrop" id="sdrop"></div>
+    </div>
+    <div class="navatar" id="nav-av">?</div>
+    <button class="bsout" onclick="doLogout()">Sign out</button>
+  </nav>
+
+  <div class="dbody">
+    <aside class="sidebar">
+      <div class="slbl">Explore</div>
+      <button class="sbtn active" onclick="sbGo(this,'home')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>Overview
+      </button>
+      <button class="sbtn" onclick="sbGo(this,'rankings')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>Rankings<span class="scnt">50</span>
+      </button>
+      <button class="sbtn" onclick="sbGo(this,'compare')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>Compare
+      </button>
+      <button class="sbtn" onclick="sbGo(this,'analytics')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>Analytics
+      </button>
+      <div class="slbl" style="margin-top:1rem">Account</div>
+      <button class="sbtn" onclick="sbGo(this,'profile')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>My Profile
+      </button>
+    </aside>
+
+    <main class="main">
+
+      <!-- HOME -->
+      <div class="sec active" id="sec-home">
+        <div class="shead">
+          <div><h2 id="greeting">Good morning</h2><p id="ddate">Loading...</p></div>
+        </div>
+        <div class="mgrid">
+          <div class="mcard"><div class="mc-lbl">TN hospitals ranked</div><div class="mc-val">50</div><div class="mc-bdg bb">Multiple districts</div></div>
+          <div class="mcard"><div class="mc-lbl">JCI accredited</div><div class="mc-val">8</div><div class="mc-bdg bgold">International</div></div>
+          <div class="mcard"><div class="mc-lbl">Avg quality score</div><div class="mc-val">82</div><div class="mc-bdg bg">+3.1 this year</div></div>
+          <div class="mcard"><div class="mc-lbl">Emergency ready</div><div class="mc-val">38</div><div class="mc-bdg br">24/7 trauma</div></div>
+        </div>
+
+        <!-- SMART FINDER -->
+        <div class="finder-panel">
+          <div class="fp-head">
+            <div class="fp-ico"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" width="18" height="18"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <h3>Smart Hospital Finder</h3>
+            <span class="fp-beta">AI-powered</span>
+          </div>
+          <p class="fp-desc">Tell us where you are and what you're experiencing — we'll analyse the severity and find the best hospitals for your condition.</p>
+          <div class="fp-form">
+            <div>
+              <label class="fp-label">Your location (city in TN)</label>
+              <select class="fp-select" id="fp-city">
+                <option value="">Select your city...</option>
+                <option>Chennai</option><option>Coimbatore</option><option>Madurai</option>
+                <option>Tiruchirappalli</option><option>Salem</option><option>Tirunelveli</option>
+                <option>Vellore</option><option>Thoothukudi</option><option>Erode</option>
+                <option>Tiruppur</option><option>Dindigul</option><option>Thanjavur</option>
+                <option>Kancheepuram</option><option>Cuddalore</option><option>Nagapattinam</option>
+                <option>Namakkal</option><option>Ramanathapuram</option><option>Sivaganga</option>
+                <option>Virudhunagar</option><option>Villupuram</option><option>Puducherry</option>
+              </select>
+            </div>
+            <div>
+              <label class="fp-label">Type your symptoms (or pick below)</label>
+              <input class="fp-input" type="text" id="fp-symptom" placeholder="e.g. chest pain and dizziness...">
+            </div>
+          </div>
+          <div class="fp-symptom-row">
+            <label class="fp-label">Quick symptom picker — select all that apply:</label>
+            <div class="fp-tags" id="fp-tags">
+              <span class="fp-tag" onclick="toggleTag(this,'chest pain')">Chest pain</span>
+              <span class="fp-tag" onclick="toggleTag(this,'palpitation')">Heart racing</span>
+              <span class="fp-tag" onclick="toggleTag(this,'shortness of breath')">Breathlessness</span>
+              <span class="fp-tag" onclick="toggleTag(this,'stroke')">Stroke / Paralysis</span>
+              <span class="fp-tag" onclick="toggleTag(this,'seizure')">Seizure / Fits</span>
+              <span class="fp-tag" onclick="toggleTag(this,'headache')">Headache / Migraine</span>
+              <span class="fp-tag" onclick="toggleTag(this,'cancer')">Cancer / Tumour</span>
+              <span class="fp-tag" onclick="toggleTag(this,'joint pain')">Joint / Bone pain</span>
+              <span class="fp-tag" onclick="toggleTag(this,'fracture')">Fracture</span>
+              <span class="fp-tag" onclick="toggleTag(this,'back pain')">Back / Spine pain</span>
+              <span class="fp-tag" onclick="toggleTag(this,'severe abdominal pain')">Severe stomach pain</span>
+              <span class="fp-tag" onclick="toggleTag(this,'stomach pain')">Mild stomach ache</span>
+              <span class="fp-tag" onclick="toggleTag(this,'jaundice')">Jaundice</span>
+              <span class="fp-tag" onclick="toggleTag(this,'nausea')">Nausea / Vomiting</span>
+              <span class="fp-tag" onclick="toggleTag(this,'diarrhea')">Diarrhoea</span>
+              <span class="fp-tag" onclick="toggleTag(this,'kidney stone')">Kidney stone</span>
+              <span class="fp-tag" onclick="toggleTag(this,'urinary tract infection')">UTI / Burning urination</span>
+              <span class="fp-tag" onclick="toggleTag(this,'blood in urine')">Blood in urine</span>
+              <span class="fp-tag" onclick="toggleTag(this,'eye pain')">Eye pain</span>
+              <span class="fp-tag" onclick="toggleTag(this,'sudden vision loss')">Sudden vision loss</span>
+              <span class="fp-tag" onclick="toggleTag(this,'blurred vision')">Blurry vision</span>
+              <span class="fp-tag" onclick="toggleTag(this,'child fever')">Child / Baby fever</span>
+              <span class="fp-tag" onclick="toggleTag(this,'child breathing difficulty')">Child breathing problem</span>
+              <span class="fp-tag" onclick="toggleTag(this,'asthma attack')">Asthma attack</span>
+              <span class="fp-tag" onclick="toggleTag(this,'coughing blood')">Coughing blood</span>
+              <span class="fp-tag" onclick="toggleTag(this,'cough')">Persistent cough</span>
+              <span class="fp-tag" onclick="toggleTag(this,'fever')">Fever</span>
+              <span class="fp-tag" onclick="toggleTag(this,'diabetes')">Diabetes / High sugar</span>
+              <span class="fp-tag" onclick="toggleTag(this,'low sugar')">Low blood sugar</span>
+              <span class="fp-tag" onclick="toggleTag(this,'skin rash')">Skin rash / Allergy</span>
+              <span class="fp-tag" onclick="toggleTag(this,'severe allergy')">Severe allergic reaction</span>
+              <span class="fp-tag" onclick="toggleTag(this,'wound')">Wound / Bleeding</span>
+              <span class="fp-tag" onclick="toggleTag(this,'burn')">Burns / Skin burn</span>
+              <span class="fp-tag" onclick="toggleTag(this,'anxiety')">Anxiety / Panic</span>
+              <span class="fp-tag" onclick="toggleTag(this,'depression')">Depression</span>
+              <span class="fp-tag" onclick="toggleTag(this,'ear pain')">Ear pain</span>
+              <span class="fp-tag" onclick="toggleTag(this,'sore throat')">Sore throat</span>
+              <span class="fp-tag" onclick="toggleTag(this,'general checkup')">General checkup</span>
+            </div>
+          </div>
+          <button class="btn-find" onclick="runFinder()">Find hospitals for me</button>
+          <div class="fp-result" id="fp-result"></div>
+        </div>
+
+        <div class="shead" style="margin-top:0">
+          <div><h2 style="font-size:20px">Top 5 ranked in Tamil Nadu</h2></div>
+          <button onclick="navGo(document.querySelectorAll('.nlink')[1],'rankings')" style="font-size:15px;color:var(--accent);background:none;border:none;cursor:pointer;font-family:var(--fb)">View all 50 →</button>
+        </div>
+        <div class="hlist" id="home-list"></div>
+      </div>
+
+      <!-- RANKINGS -->
+      <div class="sec" id="sec-rankings">
+        <div class="shead">
+          <div><h2>Tamil Nadu hospital rankings</h2><p>50 hospitals ranked by composite quality score.</p></div>
+        </div>
+        <div class="fbar">
+          <span class="flbl">Filter:</span>
+          <select class="fsel" id="f-type" onchange="applyF()"><option value="">All types</option><option>Government</option><option>Private</option><option>Specialized</option></select>
+          <select class="fsel" id="f-city" onchange="applyF()">
+            <option value="">All cities</option>
+            <option>Chennai</option><option>Coimbatore</option><option>Madurai</option><option>Tiruchirappalli</option><option>Salem</option><option>Tirunelveli</option><option>Vellore</option><option>Thoothukudi</option><option>Erode</option><option>Tiruppur</option><option>Thanjavur</option><option>Kumbakonam</option><option>Namakkal</option><option>Dindigul</option><option>Kancheepuram</option><option>Villupuram</option><option>Puducherry</option><option>Sivaganga</option><option>Ramanathapuram</option><option>Perambalur</option>
+          </select>
+          <select class="fsel" id="f-cert" onchange="applyF()"><option value="">All certs</option><option value="JCI">JCI</option><option value="NABH">NABH</option><option value="NABL">NABL</option></select>
+          <select class="fsel" id="f-spec" onchange="applyF()">
+            <option value="">All specialities</option>
+            <option>Cardiology</option><option>Oncology</option><option>Neurology</option><option>Orthopedics</option><option>Pediatrics</option><option>Nephrology</option><option>Gastroenterology</option><option>Ophthalmology</option>
+          </select>
+          <div class="fsp"></div>
+          <button class="btnrst" onclick="resetF()">Reset</button>
+        </div>
+        <div id="r-count" style="font-size:14px;color:var(--text3);margin-bottom:1rem"></div>
+        <div class="hlist" id="full-list"></div>
+      </div>
+
+      <!-- COMPARE -->
+      <div class="sec" id="sec-compare">
+        <div class="shead"><div><h2>Compare hospitals</h2><p>Choose any two Tamil Nadu hospitals for a detailed side-by-side comparison.</p></div></div>
+        <div class="cmp-setup">
+          <h3>Choose two hospitals</h3>
+          <div class="cmp-sels">
+            <select id="cmp-a"><option value="">Select hospital A...</option></select>
+            <div class="vs-b">VS</div>
+            <select id="cmp-b"><option value="">Select hospital B...</option></select>
+            <button class="btncmp" onclick="doCompare()">Compare</button>
+          </div>
+        </div>
+        <div class="cmp-grid" id="cmp-out" style="display:none"></div>
+      </div>
+
+      <!-- ANALYTICS -->
+      <div class="sec" id="sec-analytics">
+        <div class="shead"><div><h2>Quality analytics</h2><p>Visual breakdown of Tamil Nadu hospital performance.</p></div></div>
+        <div class="agrid">
+          <div class="ccrd"><h4>Average score by hospital type</h4><div class="bar-wrap" id="bc-type"></div></div>
+          <div class="ccrd"><h4>Hospital distribution by type</h4><div class="donut-w"><svg width="140" height="140" viewBox="0 0 140 140" id="donut-svg"></svg><div class="dleg" id="donut-leg"></div></div></div>
+          <div class="ccrd"><h4>Accreditation coverage</h4><div id="acc-bars"></div></div>
+          <div class="ccrd"><h4>Top 6 cities by average score</h4><div class="bar-wrap" id="bc-city"></div></div>
+          <!-- MAP spanning full width -->
+          <div class="map-container">
+            <h4>Tamil Nadu hospital locations — interactive map</h4>
+            <p style="font-size:14px;color:var(--text2);margin-bottom:12px">Select a city cluster to see hospital markers on the map. Click any marker in Google Maps to get directions.</p>
+            <div style="display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap">
+              <button class="mabtn active" onclick="loadCluster(this,'hospitals in Tamil Nadu')">All TN</button>
+              <button class="mabtn" onclick="loadCluster(this,'hospitals in Chennai Tamil Nadu')">Chennai</button>
+              <button class="mabtn" onclick="loadCluster(this,'hospitals in Coimbatore Tamil Nadu')">Coimbatore</button>
+              <button class="mabtn" onclick="loadCluster(this,'hospitals in Madurai Tamil Nadu')">Madurai</button>
+              <button class="mabtn" onclick="loadCluster(this,'hospitals in Tiruchirappalli Tamil Nadu')">Trichy</button>
+              <button class="mabtn" onclick="loadCluster(this,'hospitals in Salem Tamil Nadu')">Salem</button>
+              <button class="mabtn" onclick="loadCluster(this,'hospitals in Vellore Tamil Nadu')">Vellore</button>
+              <button class="mabtn" onclick="loadCluster(this,'hospitals in Tirunelveli Tamil Nadu')">Tirunelveli</button>
+            </div>
+            <div style="border-radius:12px;overflow:hidden;border:1px solid var(--border)">
+              <iframe id="gmap-frame" width="100%" height="480" style="border:0;display:block"
+                allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed/v1/search?key=AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFmBWY&q=hospitals+in+Tamil+Nadu&zoom=7">
+              </iframe>
+            </div>
+            <div style="margin-top:12px;padding:12px 16px;background:var(--accent-light);border-radius:var(--r);display:flex;align-items:center;gap:10px">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+              <span style="font-size:14px;color:var(--accent)">Click any red marker on the map to see hospital details and get directions. Use the cluster buttons above to zoom into specific cities.</span>
+            </div>
+            <div class="map-legend" style="margin-top:12px">
+              <div class="ml-item"><div class="ml-dot" style="background:#e24b4a"></div>Hospital markers (from Google Maps)</div>
+              <div class="ml-item"><div class="ml-dot" style="background:#1b6b45"></div>Click marker → Details + Directions</div>
+              <div class="ml-item" style="margin-left:auto;font-size:13px;color:var(--text3)">Powered by Google Maps</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROFILE -->
+      <div class="sec" id="sec-profile">
+        <div class="shead"><h2>My profile</h2></div>
+        <div class="pf-wrap">
+          <div class="pf-av" id="pf-av">?</div>
+          <div class="pfrow"><span class="pfl">Full name</span><input class="pfedit" id="pf-name" type="text"></div>
+          <div class="pfrow"><span class="pfl">Username</span><div class="pfv" id="pf-un" style="color:var(--text3)">—</div></div>
+          <div class="pfrow"><span class="pfl">Email</span><div class="pfv" id="pf-em">—</div></div>
+          <div class="pfrow"><span class="pfl">Member since</span><div class="pfv" id="pf-since">—</div></div>
+          <button class="btnsave" onclick="saveProfile()">Save changes</button>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</div>
+<div class="toast" id="toast-el"></div>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
