@@ -18,13 +18,15 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(
   session({
-    secret:            process.env.SESSION_SECRET,
-    resave:            false,
+    secret: process.env.SESSION_SECRET || "devsecretkey",
+    resave: false,
     saveUninitialized: false,
+
     cookie: {
-      secure:   false,   // set to true in production with HTTPS
+      secure: process.env.NODE_ENV === "production", // true on Render
       httpOnly: true,
-      maxAge:   7 * 24 * 60 * 60 * 1000,   // 7 days
+      sameSite: "lax",
+      maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
     },
   })
 );
